@@ -1,0 +1,47 @@
+.carosel_container {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    -webkit-scrollbar {
+        display: none;
+    }
+    scrollbar-width: none;
+}
+
+.carosel_img {
+    margin: 10px;
+    flex: 0 0 30%;
+    transition: transform 0.3s;
+
+}
+
+.carosel_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carosel_img:hover {
+    margin: 10px;
+    border-radius: 10px;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.carosel_img:hover ~ .carosel_img {
+    filter: blur(5px);
+    opacity: 0.5;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .carosel_img {
+      flex: 0 0 50%; 
+    }
+    .carosel_img img {
+      height: 400px; 
+      width: 300px
+    }
+  }
