@@ -36,34 +36,33 @@
 }
 
 #badge-tees-checkbox{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    background-color: #fff;
-    cursor: pointer;
-  }
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
 
-  #checkout-button-container {
-    text-align: center;
-    display:none;
-  }
+#checkout-button-container {
+  text-align: center;
+  display:none;
+}
 
 
 @media only screen and (max-width: 768px) {
-    .carosel_img {
-      flex: 0 0 50%; 
-    }
-    .carosel_img img {
-      height: 400px; 
-      width: 300px
-    }
-    #badge-tees-checkbox{
-      top: 5px;
-      right: 5px;
-    }
-
+  .carosel_img {
+    flex: 0 0 50%; 
   }
+  .carosel_img img {
+    height: 400px; 
+    width: 300px
+  }
+  #badge-tees-checkbox{
+    top: 35px;
+    right: 50px;
+  }
+}
