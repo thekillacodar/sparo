@@ -61,4 +61,9 @@
       height: 400px; 
       width: 300px
     }
+    #badge-tees-checkbox{
+      top: 5px;
+      right: 5px;
+    }
+
   }
