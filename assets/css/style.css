@@ -35,6 +35,23 @@
     opacity: 0.5;
 }
 
+#badge-tees-checkbox{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  #checkout-button-container {
+    text-align: center;
+    display:none;
+  }
+
 
 @media only screen and (max-width: 768px) {
     .carosel_img {

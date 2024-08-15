@@ -15,3 +15,4 @@ let carousel = document.getElementById('carousel');
         }
 
         autoScroll();
+
